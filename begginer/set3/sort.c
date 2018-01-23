@@ -10,6 +10,8 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
+		if(a[i]==n)
+		{
 		for(i=0;i<n;i++)
 		{
 			for(j=i+1;j<n;j++)
@@ -26,5 +28,8 @@ int main()
 		{
 		printf("%d\t",a[i]);
 		}
+		}
+		else
+		printf("enter the num in limit");
 	return 0;
 }
