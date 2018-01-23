@@ -2,7 +2,7 @@
 int main()
 {
 	int i,j,n,temp;
-	int a[1000];
+	int a[10000];
 	printf("enter the number\n");
 	scanf("%d",&n);
 	printf("enter the array of n numbers\n");
