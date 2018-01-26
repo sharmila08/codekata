@@ -2,7 +2,7 @@
 int main()
 {
 	char a[1000];
-	int i,sum=0;
+	int i=0,sum=0;
 	int N,A,D;
 	printf("enter the value of N,A,D\n");
 	scanf("%d %d %d",&N,&A,&D);
