@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int k;
   char a[10],i;
+   int k;
+   scanf("%s",&a);
   scanf("%d",&k);
-  scanf("%s",&a);
   for(i=0;i<k;i++)
   {
     printf("%s\n",a);
