@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	char a[1000];
-	int i,count=0;
+	char b[1000];
+	int i,count1=0;
 	printf("enter the string\n");
-	scanf("%[^\n]s",&a);
-	for(i=0;a[i]!='\0';i++)
+	scanf("%[^\n]s",&b);
+	for(i=0;b[i]!='\0';i++)
 	{
-		if(a[i]==' ')
+		if(b[i]==' ')
 		{
-			count++;
+			count1++;
 		}
 	}
-	printf("%d",count+1);
+	printf("%d",count1+1);
 
 	return 0;
 }
