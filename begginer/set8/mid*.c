@@ -11,7 +11,7 @@ int main()
   m=count/2;
   for(i=0;a[i]!='\0';i++)
   {
-    if(m==i)
+    if(i==m||i==m-1)
     printf("*");
     else
     printf("%c",a[i]);
