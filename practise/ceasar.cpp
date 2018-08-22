@@ -20,6 +20,8 @@ class cipher
            {
                cout<<" ";
            }
+           else
+           {
             if(a[i]>=97&&a[i]<=122)
             {
                 a[i]=a[i]-32;
@@ -28,8 +30,9 @@ class cipher
             if(a[i]>90)
             {
                 d=a[i]-90;
-                a[i]=67+d;
+                a[i]=65+d;
             }
+           }
         }
         cout<<a;
     }
